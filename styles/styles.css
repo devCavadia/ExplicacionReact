@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    height: 70px;
+}
+
+.button{
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton{
+    background-color: rgb(113, 192, 113);
+    color: white;
+}
+
+.mainButton:hover{
+    box-shadow: 1px 1px green;
+}
+
+.secButton{
+    background-color: rgb(98, 199, 199);
+    color: white;
+}
+
+.secButton:hover{
+    box-shadow: 1px 1px rgb(0, 124, 128);
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.buscar:focus-within {
+    border: 1px solid blue;  
+}
+
+.buscar>input{
+    outline: none;
+    border: 0;
+}
