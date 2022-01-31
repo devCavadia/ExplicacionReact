@@ -21,14 +21,34 @@ ul{
 .mainButton{
     background-color: rgb(113, 192, 113);
     color: white;
+}
+
+.button{
     border: 0;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
 }
 
-.mainButton:hover{
+.button:hover{
     cursor: pointer;
-    box-shadow: 1px 1px green;
     transform: scale(1.1);
+}
+
+.mainButton{
+    background-color: rgb(113, 192, 113);
+    color: white;
+}
+
+.mainButton:hover{
+    box-shadow: 1px 1px green;
+}
+
+.secButton{
+    background-color: rgb(98, 199, 199);
+    color: white;
+}
+
+.secButton:hover{
+    box-shadow: 1px 1px rgb(0, 124, 128);
 }
