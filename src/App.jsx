@@ -1,7 +1,7 @@
 import logo from './media/logo.png';
 import './styles/styles.css';
-import borderCollie from './media/borderCollie.jpg'
-import rhodesian from './media/rhodesian.jpg'
+import borderCollie from './media/borderCollie.jpg';
+import rhodesian from './media/rhodesian.jpg';
 
 function App() {
   return (
@@ -32,22 +32,12 @@ function App() {
         <section>
             <h1>Razas de Perros</h1>
             <ul className="breedCardContainer">
-                <li className="breedCard">
-                    <div className="contenedorImagen">
-                        <img src={borderCollie} alt="imagen Border Collie"/>
-                    </div>
-                    <span className="breedTitle">
-                        Border Collie
-                    </span>
-                </li>
-                <li className="breedCard">
-                    <div className="contenedorImagen">
-                        <img src={rhodesian} alt="imagen Rhodesian"/>
-                    </div>
-                    <span className="breedTitle">
-                        Rhodesian
-                    </span>
-                </li>
+                <CardRazasPerros fotoRaza={borderCollie} nombreRaza="Border Collie"/>
+                <CardRazasPerros fotoRaza={rhodesian} nombreRaza="Rhodesian"/>
+                <CardRazasPerros fotoRaza={borderCollie} nombreRaza="Border Collie"/>
+                <CardRazasPerros fotoRaza={rhodesian} nombreRaza="Rhodesian"/>
+                <CardRazasPerros fotoRaza={borderCollie} nombreRaza="Border Collie"/>
+                <CardRazasPerros fotoRaza={rhodesian} nombreRaza="Rhodesian"/>
             </ul>
         </section>
         <section></section>
@@ -55,6 +45,19 @@ function App() {
       <footer></footer>
     </div>
   );
+}
+
+function CardRazasPerros(props) {
+    return (
+        <li className="breedCard">
+            <div className="contenedorImagen">
+                <img src={props.fotoRaza} alt={props.nombreRaza}/>
+            </div>
+            <span className="breedTitle">
+                {props.nombreRaza}
+            </span>
+        </li>
+    );
 }
 
 export default App;
