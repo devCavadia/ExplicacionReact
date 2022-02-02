@@ -11,6 +11,10 @@ function Index() {
                 <CardRazasPerros fotoRaza={rhodesian} nombreRaza="Rhodesian" paginaPerro='/rhodesian'/>
                 <CardRazasPerros fotoRaza={borderCollie} nombreRaza="Border Collie" paginaPerro='/bordercollie'/>
                 <CardRazasPerros fotoRaza={rhodesian} nombreRaza="Rhodesian" paginaPerro='/rhodesian'/>
+                <CardRazasPerros fotoRaza={borderCollie} nombreRaza="Border Collie" paginaPerro='/bordercollie'/>
+                <CardRazasPerros fotoRaza={rhodesian} nombreRaza="Rhodesian" paginaPerro='/rhodesian'/>
+                <CardRazasPerros fotoRaza={borderCollie} nombreRaza="Border Collie" paginaPerro='/bordercollie'/>
+                <CardRazasPerros fotoRaza={rhodesian} nombreRaza="Rhodesian" paginaPerro='/rhodesian'/>
             </ul>
         </section>
     );
