@@ -116,3 +116,18 @@ ul{
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main{
+  height: 100%;
+}
+
+.mainContainer > footer{
+  background-color: red;
+  padding: 10px;
+}

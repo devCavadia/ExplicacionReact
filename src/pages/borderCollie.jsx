@@ -1,7 +1,7 @@
 function BorderCollieInfoPage() {
     return(
         <div>
-            Esta es la página de info del Border Collie
+            Esta es la pagina de info de Border Collie
         </div>
     );
 }
